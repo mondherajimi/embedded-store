@@ -1,0 +1,38 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 4 nov. 2014, 15:32:19
+    Author     : hamdi.ammar
+*/
+
+body{
+    width: 320px;
+    height: 480px;
+    position: absolute;
+    -webkit-user-select: none;
+    overflow: hidden;
+}
+
+html {
+    background: #E6E6E6;
+    min-height: 480px;
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+@media (min-width: 0px) {
+  .container {
+    width: 100%;
+  }
+}
+
+.hiddenDiv {
+    background: yellow;
+    position: absolute;
+    right: 1000px;
+}
